@@ -22,20 +22,7 @@
 
 <body <?php body_class(); ?>>
 
-<?php myPikachu(); ?>
 
-<div class="pikachu">
-
-<?php 
-
-bloginfo('description'); 
-echo '<br>';
-bloginfo('name');
-
-?>
-
-
-</div>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blah' ); ?></a>
 
